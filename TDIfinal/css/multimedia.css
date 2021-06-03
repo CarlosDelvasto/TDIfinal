@@ -8,24 +8,27 @@
   position: relative;
   width: 500px;
   height: 500px;
-  transform: translate(140%, -50%);
+  transform: translate(85%, -60%);
   text-align: center;
+  
 }
 
 model-viewer {
   position: absolute;
   width: 90%;
   height: 90%;
-  top: 35%;
+  top: 15%;
+  
 }
 
 #textoarea {
   position: absolute;
   color: #fff;
   width: 100%;
-  margin-top: 10%;
+  margin-top: 105%;
   text-align: center;
   font-size: 40px;
-
-  top: 110%;
+font-family: Montserrat;
+font-weight: bold;
+  
 }

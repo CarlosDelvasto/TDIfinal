@@ -1,0 +1,132 @@
+.Texto_InicioSesion,
+.Texto_Registro {
+  color: white;
+}
+
+.Texto_InicioSesion h1,
+.Texto_Registro h1 {
+  margin-top: 40px;
+  font-size: 6vh;
+  text-align: center;
+}
+
+.Texto_InicioSesion p,
+.Texto_Registro p {
+  margin-top: 2%;
+  border-radius: 25px;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 4.3vh;
+  text-align: center;
+}
+
+.Panel_InicioSesion {
+  /* Panel blanco*/
+
+  position: absolute;
+  border-radius: 25px;
+  background: white;
+  padding: 22px;
+  margin-top: 2%;
+  margin-bottom: 0%;
+  top: 40%;
+  left: 18%;
+  right: 18%;
+  border: none;
+  transform: translate (-50%, -50%);
+}
+
+.Panel_Registro {
+  /* Panel blanco*/
+
+  position: absolute;
+
+  border-radius: 25px;
+  background: white;
+  padding: 20px;
+  margin-top: 2%;
+  top: 40%;
+  left: 18%;
+  right: 18%;
+  border: none;
+  transform: translate (-50%, -50%);
+  padding-bottom: 0%;
+}
+
+.Panel_InicioSesion a,
+.Panel_Registro a {
+  /* Links de ya tienes cuenta?*/
+
+  text-decoration: none;
+  margin-left: 40%;
+  font-size: 90%;
+}
+
+.Panel_InicioSesion a:hover,
+.Panel_Registro a:hover {
+  text-decoration: underline;
+}
+
+.Panel_InicioSesion h2 {
+  /* Frases de Crea tu cuenta e Inicio de sesión*/
+  font-size: 3vh;
+  font-weight: bold;
+  margin-left: 40%;
+  padding-bottom: 2%;
+}
+
+.Panel_Registro h2 {
+  /* Frases de Crea tu cuenta e Inicio de sesión*/
+  font-size: 2.8vh;
+  font-weight: bold;
+  margin-left: 40%;
+  padding-bottom: 2%;
+}
+
+.Panel_InicioSesion .boton,
+.Panel_Registro .boton {
+  /* Botones azules*/
+  font-size: 3vh;
+  border-radius: 20px;
+  width: 27%;
+  padding: 0.6%;
+  border: none;
+  color: white;
+  background-color: #18a0fb;
+  margin-left: 36%;
+}
+.controls {
+  /* Cajas de formatos*/
+  width: 70%;
+  border-radius: 30px;
+  padding: 1.2%;
+  border-color: rgb(0, 0, 0, 0.5);
+  border-width: 5%;
+  margin-left: 15%;
+}
+.controlsr1Nombre {
+  /* Cajas de formatos de nombre y apellido del registro*/
+  width: 29%;
+  border-radius: 30px;
+  padding: 0.5%;
+  border-color: rgb(0, 0, 0, 0.5);
+  margin-left: 20%;
+}
+
+.controlsr1Apellido {
+  /* Cajas de formatos de nombre y apellido del registro*/
+  width: 29%;
+  border-radius: 30px;
+  padding: 0.5%;
+  border-color: rgb(0, 0, 0, 0.5);
+  margin-left: 1%;
+}
+
+.controlsr {
+  /* Cajas de formatos de nombre y apellido del registro*/
+  width: 60%;
+  border-radius: 30px;
+  padding: 0.5%;
+  border-color: rgb(0, 0, 0, 0.5);
+  margin-left: 20%;
+}

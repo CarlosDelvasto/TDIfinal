@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fondo {
+  height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(180deg, #004670 0%, #00d1ac 100%);
+  border: 1px solid #00d1ac;
+  border-radius: 12px;
+  margin: 20px 20px;
+}
+
+body {
+  background: #070d29;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrap {
+  width: cover;
+  margin: 0px auto;
+}
+ul.tabs {
+  width: 100%;
+  border: 1px solid #00c2ff;
+  border-radius: 12px;
+  list-style: none;
+  display: flex;
+}
+ul.tabs li a {
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 13px;
+  display: block;
+  padding: 12px 0px;
+  text-align: center;
+  border-right: 1px solid #00c2ff;
+  border-left: 1px solid #00c2ff;
+}
+ul.tabs li {
+  width: 20%;
+}
+.img_logo {
+  position: absolute;
+  left: 25%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  width: 90vh;
+}
+.log {
+  color: #fff;
+  border-radius: 6px;
+  font-size: 15px;
+  display: block;
+  padding: 12px 0px;
+  text-align: center;
+  border-right: 1px solid #00c2ff;
+}
+.contenedor {
+  max-width: 700px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contenedor_tarjeta {
+  margin: 20px;
+}
+img {
+  width: 300px;
+  height: 350px;
+  margin: 0;
+  border-radius: 12px;
+}
+.contenedor_tarjeta:hover figure {
+  -webkit-transform: perspective(600px) rotateY(180deg);
+  -ms-transform: perspective(600px) rotateY(180deg);
+  -o-transform: perspective(600px) rotateY(180deg);
+  transform: perspective(600px) rotateY(180deg);
+
+  background: rgba(223, 234, 421, 0.75);
+  background: -moz-linear-gradient(
+    top,
+    rgba(223, 234, 421, 0.75),
+    rgba(15, 98, 144, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop (0%, rgba(223, 234, 421, 0.75)),
+    color-stop(100% rgba(15, 98, 144, 1))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(223, 234, 421, 0.75) 0%,
+    rgba(15, 98, 144, 1) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(223, 234, 421, 0.75) 0%,
+    rgba(15, 98, 144, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(223, 234, 421, 0.75) 0%,
+    rgba(15, 98, 144, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(223, 234, 421, 0.75) 0%,
+    rgba(15, 98, 144, 1) 100%
+  );
+}
+.contenedor_tarjeta:hover figure img {
+  filter: blur(2px);
+}
+figure {
+  width: 300px;
+  height: 350px;
+  margin: 0;
+  position: relative;
+  transition: all ease 0.5s;
+  transform-style: preserve-3d;
+  transform: perspective(600px) rotateY(0deg);
+}
+figure .frontal,
+figure .trasera {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  transition: all ease 0.5s;
+}
+figure .frontal {
+  display: block;
+  /*backface-visibility: hidden;*/
+}
+figure .trasera {
+  position: absolute;
+  top: 0;
+  padding: 20px;
+  color: white;
+  transform: perspective(600px) rotateY(180deg);
+  backface-visibility: hidden;
+  overflow: auto;
+  background: #1f1c2c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #928dab,
+    #1f1c2c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #928dab,
+    #1f1c2c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+figure .trasera .titulo {
+  color: white;
+  font-weight: normla;
+  margin-bottom: 20px;
+  font-size: 34px;
+}
+figure .trasera hr {
+  height: 2px;
+  background: white;
+  border: none;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+figure .trasera p {
+  line-height: 22px;
+  font-size: 18px;
+}

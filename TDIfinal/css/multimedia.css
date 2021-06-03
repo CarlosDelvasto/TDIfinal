@@ -1,0 +1,31 @@
+.img_logoM {
+  margin-top: 5%;
+  top: 40%;
+  transform: translate(50%, 0%);
+  width: 100vh;
+}
+#pc {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  transform: translate(140%, -50%);
+  text-align: center;
+}
+
+model-viewer {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 35%;
+}
+
+#textoarea {
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  margin-top: 10%;
+  text-align: center;
+  font-size: 40px;
+
+  top: 110%;
+}

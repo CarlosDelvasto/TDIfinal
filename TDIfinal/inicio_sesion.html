@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia 20 años</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/panel.css">
+</head>
+
+<body>
+    <div class="fondo">
+        <nav class="wrap">
+            <ul class="tabs">
+                <li class="log">20 años multimedia</li>
+                <li class="select"><a href="index.html"><span>Inicio</span></a></li>
+                <li class="no_select"><a href="recorrido.html"><span>Recorrido</span></a></li>
+                <li class="no_select"><a href="#"><span>Multimedia</span></a></li>
+                <li class="no_select"><a href="comunidad.html"><span>Comunidad</span></a></li>
+            </ul>
+            <div class="Texto_InicioSesion">
+
+                <h1> ¡Bienvenid@! </h1>
+                <p> Inicia tu experiencia en los 20 años del programa de Ingeniería en Multimedia</p>
+            </div>
+            <div class="Panel_InicioSesion">
+                <h2><b>¡Inicia sesión! </b> </h2>
+
+                <form action="">
+
+                    <input class="controlsr" id="email2" type="email" REQUIRED
+                        placeholder="Correo electrónico"><br><br>
+                    <input class="controlsr" id="contrasena2" type="password" REQUIRED
+                        placeholder="Contraseña"><br><br>
+                    <button class="boton" onclick="ingreso()"> enviar </button><br><br>
+                    <p> <a href="registro.html"> ¿Aún no tienes cuenta? </a> </p>
+                </form>
+
+
+            </div> <!-- Final Panel_InicioSesion -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-functions.js"></script>
+        <script src="./js/config/firebase.config.js"></script>
+        <script src="./js/config/utils/definitions.js"></script>
+        <script src="./js/config/utils/auth.js"></script>
+</body>
+
+</html>

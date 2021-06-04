@@ -12,7 +12,7 @@
 .containervid {
   background: none;
 }
-<<<<<<< Updated upstream
+
 .containervid h1 {
   padding: 60px;
   color: white;
@@ -44,40 +44,38 @@
   border-radius: 6px;
   align-items: center;
   overflow: hidden;
-=======
-.containervid h1{
-    padding: 60px;
-    color: white;
-    font-size: 46px;
-    text-align: center;
 }
-.row
-{
-display: flex;
-align-items: center;
-flex-wrap: wrap;
+.containervid h1 {
+  padding: 60px;
+  color: white;
+  font-size: 46px;
+  text-align: center;
 }
-.col{
-flex-basis: 50%;
-min-width: 250px;
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.main-img{
-width: 83%;
-height: 60vh;
-margin: auto;
-position: relative;
-border-radius: 6px;
-overflow: hidden;
+.col {
+  flex-basis: 50%;
+  min-width: 250px;
 }
-.small-img-row{
-display: flex;
-background-color: turquoise;
-margin: 20px 0;
-align-items: center;
-width: 85%;
-overflow: hidden;
-border-radius: 6px;
->>>>>>> Stashed changes
+.main-img {
+  width: 83%;
+  height: 60vh;
+  margin: auto;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.small-img-row {
+  display: flex;
+  background-color: turquoise;
+  margin: 20px 0;
+  align-items: center;
+  width: 85%;
+  overflow: hidden;
+  border-radius: 6px;
 }
 
 .small-img {
@@ -103,8 +101,6 @@ border-radius: 6px;
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
-
-<<<<<<< Updated upstream
 .small-img .play-btn {
   width: 35px;
 }
@@ -119,33 +115,30 @@ border-radius: 6px;
 
 .video:focus {
   outline: none;
-=======
-.small-img .play-btn{
-    width: 35px;
-    
 }
-.video-Player{
-    width: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.small-img .play-btn {
+  width: 35px;
+}
+.video-Player {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: none;
 }
 
-video:focus{
-outline: none;
+video:focus {
+  outline: none;
 }
 
-.close-btn{
-position: absolute;
-top: 10px;
-right: 10px;
-width: 30px;
-cursor: pointer;
->>>>>>> Stashed changes
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  cursor: pointer;
 }
-
 .close-btn {
   position: absolute;
   top: 10px;

@@ -12,18 +12,13 @@
     <link rel="stylesheet" href="css/panel.css">
     <link rel="stylesheet" href="css/multimedia.css">
     <link rel="stylesheet" href="css/cards.css">
-    <link rel="stylesheet" href="css/Gvideos.css">
-    <link rel="stylesheet" href="css/Gvideos.css">
-
-
-
 
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>  
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
 </head>
 
 <body>
-    <div class="fondo1">
+    <div class="fondo">
         <nav class="wrap">
             <ul class="tabs">
                 <li class="log">20 años multimedia</li>
@@ -34,21 +29,17 @@
             </ul>
         </nav>
         <div class="contenedor">
-
-       
-        <div>
-            <a href="Gfotos.html" class="botonFotos">Galería de imágenes</a>
-        </div>
-        <div>
-            <a href="Gvideos.html" class="botonVideos">Galería de vídeos</a>
-        </div>
-        
-            
+            <div>
+                <a href="Gfotos.html" class="botonFotos">Galería de imágenes</a>
+            </div>
+            <div>
+                <a href="Gvideos.html" class="botonVideos">Galería de vídeos</a>
+            </div>
             <div class="contenedor_tarjeta">
              <figure>
-                 <img src="imagenes/KarenLinares.jpg" class="frontal" alt="profesor 1">
+                 <img src="imagenes/AlexanderCeron.jpg" class="frontal" alt="profesor 1">
                  <figcaption class="trasera">
-                     <h2 class="titulo">Karen Linares</h2>
+                     <h2 class="titulo">Alexander Ceron</h2>
                      <hr>
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nisi quisquam tempora, assumenda sint reiciendis nulla distinctio vero modi eveniet, ipsa ducimus!</p>
      
@@ -57,9 +48,9 @@
              </div>
              <div class="contenedor_tarjeta">
                  <figure>
-                     <img src="imagenes/Carlorocha.jpeg" class="frontal" alt="profesor 2">
+                     <img src="imagenes/RicardoGutierrez.jpg" class="frontal" alt="profesor 2">
                      <figcaption class="trasera">
-                         <h2 class="titulo">Carlos Rocha</h2>
+                         <h2 class="titulo">Ricardo Gutierrez</h2>
                          <hr>
                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nisi quisquam tempora, assumenda sint reiciendis nulla distinctio vero modi eveniet, ipsa ducimus!</p>
          
@@ -82,13 +73,13 @@
                           Transformación digital
                         </div>
                         <ul class="list-group list-group-flush">
-                          <li class="list-group-item">Programación III</li>
-                          <li class="list-group-item">Integración multimedia</li>
-                          <li class="list-group-item">Ingeniería de Software</li>
-                          <li class="list-group-item">Tecnologías de Internet</li>
-                          <li class="list-group-item">Base de datos</li>
-                          <li class="list-group-item">Multimedia educativa</li>
-                          <li class="list-group-item">Museos y tecnología</li>
+                          <li class="list-group-item">Economia y finanzas</li>
+                          <li class="list-group-item">Introducción a la ingenieria</li>
+                          <li class="list-group-item">Gestión empresarial</li>
+                          <li class="list-group-item">Gestión integral de proyectos</li>
+                          <li class="list-group-item">Entornos virtuales</li>
+                          <li class="list-group-item">Diseño de interfaces</li>
+                          
                         </ul>
                       </div>
          </div>
@@ -99,14 +90,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
     <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-firestore.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-functions.js"></script>
-
-
-
     <script>
         // Your web app's Firebase configuration
         // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -123,7 +110,6 @@
         firebase.initializeApp(firebaseConfig);
     </script>
     <script src="./js/config/utils/definitions.js"></script>
-    <script src="video.js"></script>
     <script src="auth1.js"></script>
     <script src="files.js"></script>
 </body>

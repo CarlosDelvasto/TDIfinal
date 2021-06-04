@@ -127,6 +127,7 @@ function registro(){
     function aparece(){
       var contenido=document.getElementById('contenido');
       contenido.innerHTML =`
+      <br><br><br>
             <div class="container mt-4">
         <div class="alert alert-success" role="alert">
         <h4 class="alert-heading">Bienvenid@</h4>

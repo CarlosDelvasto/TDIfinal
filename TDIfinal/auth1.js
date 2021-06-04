@@ -52,7 +52,7 @@ function registro(){
           <div class="container mt-5">
           <div>
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                  registrate
+                  Registrarse
               </button>
           </div>
           <!-- Modal -->

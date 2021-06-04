@@ -1,9 +1,4 @@
-.img_logoM {
-  margin-top: 5%;
-  top: 40%;
-  transform: translate(50%, 0%);
-  width: 100vh;
-}
+
 #pc {
   background: none;
   position: relative;
@@ -20,6 +15,7 @@ model-viewer {
   height: 90%;
   top: 15%;
 }
+
 
 #textoarea {
   position: absolute;

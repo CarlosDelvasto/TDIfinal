@@ -37,20 +37,19 @@
         
 <div class="containervid">
     <h1 class="Texto_Galeria" > Galería de Vídeos </h1>
-<div class="rowv">
-<div class="colw">
+<div class="row">
+<div class="col">
 <div class="main-img">
 
     <img src= "imagenes/pic1.png" width="100%">
-    <img src="imagenes/videoplay.png" class = "play-btn"
-    onclick="playVideo('videos/video.mp4')">
+    <img src="imagenes/videoplay.png" class = "play-btn" onclick="playVideo('imagenes/video.mp4')">
 </div> <!-- Final maini-img -->
 </div> <!-- Final colv -->
-<div class="colw">
+<div class="col">
     <div class="small-img-row"> 
         <div class="small-img">
             <img src= "imagenes/pic1.png" width="100%">
-            <img src="imagenes/videoplay.png" class = "play-btn" onclick="playVideo('videos/video.mp4')">
+            <img src="imagenes/videoplay.png" class = "play-btn" onclick="playVideo('imagenes/video.mp4')">
         </div>
 
         <p> Nombre del estudiante, Nombre del proyecto, Materia, Descripción</p>
@@ -60,7 +59,7 @@
     <div class="small-img-row"> 
         <div class="small-img">
             <img src= "imagenes/pic2.png" width="100%">
-            <img src="imagenes/videoplay.png" class = "play-btn" onclick="playVideo('videos/video.mp4')">
+            <img src="imagenes/videoplay.png" class = "play-btn" onclick="playVideo('imagenes/video.mp4')">
 
         </div>
         <p> Nombre del estudiante, Nombre del proyecto, Materia, Descripción</p>
@@ -68,7 +67,7 @@
      <div class="small-img-row"> 
         <div class="small-img">
             <img src= "imagenes/pic3.png" width="100%">
-            <img src="imagenes/videoplay.png" class = "play-btn" onclick="playVideo('videos/video.mp4')">
+            <img src="imagenes/videoplay.png" class = "play-btn" onclick="playVideo('imagenes/video.mp4')">
         </div>
 <p> Nombre del estudiante, Nombre del proyecto, Materia, Descripción</p>
     </div> 
@@ -79,14 +78,12 @@
 
 
 
-<div class= "videoPlayer">
-    <video width="100%" controls="controlsv"  id="myvideo">
-        <source src = "imagenes/video.mp4"  type="video/mp4"  id="close">
+<div class= "video-Player" id="videoPlayer" >
+    <video width="100%" controls autoplay   id="myVideo" >
+        <source src = "imagenes/video.mp4"  type="video/mp4"  >
     </video>
-    <img src = "imagenes/closebtn.png" id="close-btn" onclick = "closebtn()">
+    <img src = "imagenes/closebtn.png" id="close-btn" onclick = "stopVideo()">
 </div>
-
-</script>
 
 
 

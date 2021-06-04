@@ -10,8 +10,3 @@ myVideo.src = file;
 videoPlayer.style.display= "block";
 myVideo.style.display="block";
 }
-function closebtn(){
-    
-    videoPlayer.style.display="none";
-    myVideo.style.display="none";
-}

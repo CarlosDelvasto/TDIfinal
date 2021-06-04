@@ -13,6 +13,19 @@
   border-radius: 12px;
   margin: 20px 20px;
 }
+.fondo1 {
+  height: 180vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(180deg, #004670 0%, #00d1ac 100%);
+  border: 1px solid #00d1ac;
+  border-radius: 12px;
+  margin: 20px 20px;
+}
+
+
+
 body {
   height: 100%;
   justify-content: center;

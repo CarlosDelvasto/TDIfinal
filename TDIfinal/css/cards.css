@@ -68,6 +68,52 @@ ul.tabs li {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.botonFotos{
+  display: inline-block;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 15px;
+  margin-bottom: 30px;
+  width: 25vh; 
+  list-style: none;
+  position: absolute;
+  left: 10%;
+  top:50%;
+  font-size: 2vh;
+  transform: translate(-50%,-50%);
+ border: 1px solid rgb(30, 172, 228);
+}
+
+.botonFotos a:hover{
+background: #00C2FF;
+}
+
+.botonVideos{
+  display: inline-block;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 15px;
+  margin-bottom: 30px;
+  width: 25vh; 
+  list-style: none;
+  position: absolute;
+  left: 10%;
+  top:70%;
+  font-size: 2vh;
+  transform: translate(-50%,-50%);
+ border: 1px solid rgb(30, 172, 228);
+
+}
+
+.botonVideos a:hover{
+background: #00C2FF;
+}
+
+
+
 .contenedor_tarjeta {
   margin: 20px;
 }

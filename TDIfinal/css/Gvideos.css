@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.wrap{
+    width: cover;
+    margin: 0px auto;
+}
+
+.containervid
+{
+  background: none;
+}
+.containervid h1{
+    padding: 60px;
+    color: white;
+    font-size: 46px;
+    text-align: center;
+}
+.rowv
+{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+.colw{
+flex-basis: 50%;
+min-width: 250px;
+}
+.main-img{
+width: 83%;
+height: 60vh;
+margin: auto;
+position: relative;
+border-radius: 6px;
+overflow: hidden;
+}
+.small-img-row{
+display: flex;
+margin: 20px 0;
+width: 85%;
+background-color: turquoise;
+border-radius: 6px;
+align-items: center;
+overflow: hidden;
+
+}
+
+.small-img{
+position: relative;
+
+}
+
+.small-img img{
+width: 150px;
+}
+
+.small-img-row p{
+
+margin-left: 20px;
+color: black;
+line-height: 20px;
+font-size: 15px;
+}
+
+.play-btn{
+position: absolute;
+width: 60px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+cursor: pointer;
+}
+
+.small-img .play-btn{
+    width: 35px;
+    
+}
+.video-Player{
+    width: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+
+.video:focus{
+outline: none;
+}
+
+.close-btn{
+    position: absolute;
+    top: 10px;
+right: 10px;
+width: 30px;
+cursor: pointer;
+}
+

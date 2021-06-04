@@ -3,39 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .wrap {
   width: cover;
   margin: 0px auto;
 }
-
 .containervid {
   background: none;
 }
+.botonFotos {
+  display: inline-block;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 15px;
+  margin-bottom: 30px;
+  width: 25vh;
+  list-style: none;
+  position: absolute;
+  left: 10%;
+  top: 90%;
+  font-size: 2vh;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgb(30, 172, 228);
+}
 
-
-.botonFotos{
-    display: inline-block;
-    color: #fff;
-    border-radius: 6px;
-    text-decoration: none;
-    padding: 15px;
-    margin-bottom: 30px;
-    width: 25vh; 
-    list-style: none;
-    position: absolute;
-    left: 10%;
-    top:90%;
-    font-size: 2vh;
-    transform: translate(-50%,-50%);
-   border: 1px solid rgb(30, 172, 228);
-  }
-  
-  .botonFotos a:hover{
-  background: #00C2FF;
-  }
-  
-  
+.botonFotos a:hover {
+  background: #00c2ff;
+}
 .containervid h1 {
   padding: 60px;
   color: white;
@@ -68,49 +62,108 @@
   align-items: center;
   overflow: hidden;
 }
-.containervid h1{
-    padding: 60px;
-    color: white;
-    font-size: 46px;
-    text-align: center;
+.containervid h1 {
+  padding: 60px;
+  color: white;
+  font-size: 46px;
+  text-align: center;
 }
-.row
-{
-display: flex;
-align-items: center;
-flex-wrap: wrap;
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.col{
-flex-basis: 50%;
-min-width: 250px;
+.col {
+  flex-basis: 50%;
+  min-width: 250px;
 }
-.main-img{
-width: 83%;
-height: 60vh;
-margin: auto;
-position: relative;
-border-radius: 6px;
-overflow: hidden;
+.main-img {
+  width: 83%;
+  height: 60vh;
+  margin: auto;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
 }
-.small-img-row{
-display: flex;
-background-color: turquoise;
-margin: 20px 0;
-align-items: center;
-width: 85%;
-overflow: hidden;
-border-radius: 6px;
-
+.small-img-row {
+  display: flex;
+  background-color: turquoise;
+  margin: 20px 0;
+  align-items: center;
+  width: 85%;
+  overflow: hidden;
+  border-radius: 6px;
 }
-
+.containervid h1 {
+  padding: 60px;
+  color: white;
+  font-size: 46px;
+  text-align: center;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.col {
+  flex-basis: 50%;
+  min-width: 250px;
+}
+.main-img {
+  width: 83%;
+  height: 60vh;
+  margin: auto;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.small-img-row {
+  display: flex;
+  background-color: turquoise;
+  margin: 20px 0;
+  align-items: center;
+  width: 85%;
+  overflow: hidden;
+  border-radius: 6px;
+}
+.containervid h1 {
+  padding: 60px;
+  color: white;
+  font-size: 46px;
+  text-align: center;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.col {
+  flex-basis: 50%;
+  min-width: 250px;
+}
+.main-img {
+  width: 83%;
+  height: 60vh;
+  margin: auto;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.small-img-row {
+  display: flex;
+  background-color: turquoise;
+  margin: 20px 0;
+  align-items: center;
+  width: 85%;
+  overflow: hidden;
+  border-radius: 6px;
+}
 .small-img {
   position: relative;
 }
-
 .small-img img {
   width: 150px;
 }
-
 .small-img-row p {
   margin-left: 20px;
   color: black;
@@ -126,7 +179,6 @@ border-radius: 6px;
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
-
 .small-img .play-btn {
   width: 35px;
 }
@@ -142,7 +194,6 @@ border-radius: 6px;
 .video:focus {
   outline: none;
 }
-
 .small-img .play-btn {
   width: 35px;
 }
@@ -152,25 +203,30 @@ border-radius: 6px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 35px;
 }
-.small-img .play-btn{
-    width: 35px;
-    
+.video-Player {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
 }
-.video-Player{
-    width: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
+.small-img .play-btn {
+  width: 35px;
 }
-
+.video-Player {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
 video:focus {
   outline: none;
 }
-
-
 .close-btn {
   position: absolute;
   top: 10px;
@@ -178,14 +234,19 @@ video:focus {
   width: 30px;
   cursor: pointer;
 }
-.close-btn{
-position: absolute;
-top: 10px;
-right: 10px;
-width: 30px;
-cursor: pointer;
-
-
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  cursor: pointer;
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  cursor: pointer;
 }
 .close-btn {
   position: absolute;

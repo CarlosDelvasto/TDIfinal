@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 .fondo {
   height: 100vh;
   background-attachment: fixed;
@@ -26,7 +25,6 @@
   border-radius: 12px;
   margin: 20px 20px;
 }
-
 .fondo2 {
   height: 120vh;
   background-attachment: fixed;
@@ -37,8 +35,6 @@
   border-radius: 12px;
   margin: 20px 20px;
 }
-
-
 .img_logoM {
   position: absolute;
   margin-top: 5%;

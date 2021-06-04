@@ -4,6 +4,42 @@
     box-sizing: border-box;
 }
 
+.fondo2 {
+    height: 120vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(180deg, #004670 0%, #00d1ac 100%);
+    border: 1px solid #00d1ac;
+    border-radius: 12px;
+    margin: 20px 20px;
+  }
+  .botonVideos{
+    display: inline-block;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 15px;
+    margin-bottom: 30px;
+    width: 25vh; 
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    top: 115%;
+    font-size: 2vh;
+    transform: translate(-50%,-50%);
+   border: 1px solid rgb(30, 172, 228);
+  
+  }
+  
+  .botonVideos a:hover{
+  background: #4258d1;
+  }
+  
+
+
+
+
 .galeria{
     font-family: 'open sans';
 }
@@ -12,6 +48,7 @@
     text-align: center;
     margin:20px 0 15px 0;
     font-weight: 300;
+    color: #d8e2e9;
 }
 
 .linea{
@@ -55,7 +92,7 @@
 .overlay h2{
     color: #fff;
     font-weight: 300;
-    font-size:30px;
+    font-size:15px;
     position: absolute;
     top: 50%;
     left:50%;

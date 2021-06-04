@@ -13,6 +13,29 @@
   background: none;
 }
 
+
+.botonFotos{
+    display: inline-block;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 15px;
+    margin-bottom: 30px;
+    width: 25vh; 
+    list-style: none;
+    position: absolute;
+    left: 10%;
+    top:90%;
+    font-size: 2vh;
+    transform: translate(-50%,-50%);
+   border: 1px solid rgb(30, 172, 228);
+  }
+  
+  .botonFotos a:hover{
+  background: #00C2FF;
+  }
+  
+  
 .containervid h1 {
   padding: 60px;
   color: white;
@@ -45,39 +68,6 @@
   align-items: center;
   overflow: hidden;
 }
-<<<<<<< Updated upstream
-.containervid h1 {
-  padding: 60px;
-  color: white;
-  font-size: 46px;
-  text-align: center;
-}
-.row {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.col {
-  flex-basis: 50%;
-  min-width: 250px;
-}
-.main-img {
-  width: 83%;
-  height: 60vh;
-  margin: auto;
-  position: relative;
-  border-radius: 6px;
-  overflow: hidden;
-}
-.small-img-row {
-  display: flex;
-  background-color: turquoise;
-  margin: 20px 0;
-  align-items: center;
-  width: 85%;
-  overflow: hidden;
-  border-radius: 6px;
-=======
 .containervid h1{
     padding: 60px;
     color: white;
@@ -111,7 +101,6 @@ width: 85%;
 overflow: hidden;
 border-radius: 6px;
 
->>>>>>> Stashed changes
 }
 
 .small-img {
@@ -137,11 +126,7 @@ border-radius: 6px;
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
-<<<<<<< Updated upstream
-=======
 
-
->>>>>>> Stashed changes
 .small-img .play-btn {
   width: 35px;
 }
@@ -157,7 +142,7 @@ border-radius: 6px;
 .video:focus {
   outline: none;
 }
-<<<<<<< Updated upstream
+
 .small-img .play-btn {
   width: 35px;
 }
@@ -167,7 +152,7 @@ border-radius: 6px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-=======
+}
 .small-img .play-btn{
     width: 35px;
     
@@ -178,22 +163,21 @@ border-radius: 6px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
->>>>>>> Stashed changes
-  display: none;
+    display: none;
 }
 
 video:focus {
   outline: none;
 }
 
-<<<<<<< Updated upstream
+
 .close-btn {
   position: absolute;
   top: 10px;
   right: 10px;
   width: 30px;
   cursor: pointer;
-=======
+}
 .close-btn{
 position: absolute;
 top: 10px;
@@ -201,7 +185,7 @@ right: 10px;
 width: 30px;
 cursor: pointer;
 
->>>>>>> Stashed changes
+
 }
 .close-btn {
   position: absolute;
